@@ -11,6 +11,7 @@ btn_calcular.addEventListener("click", ()=>{
     const nota3 = parseInt(document.querySelector("#nota3").value);
     const nota4 = parseInt(document.querySelector("#nota4").value);
 
+
     clasificacion.innerHTML = "";
     promedio.innerHTML = ""; 
     lds.classList.add("active");
@@ -23,7 +24,7 @@ btn_calcular.addEventListener("click", ()=>{
         clasificacion_txt = "mas o menos";
         
     }else if(calc_promedio <=89 && calc_promedio >=80){
-        clasificacion_txt = "mas o menos";
+        clasificacion_txt = "Bien";
         
     }else if(calc_promedio <=94 && calc_promedio >=90){
         clasificacion_txt = "muy bien";
